@@ -1,3 +1,5 @@
 rootProject.name = 'basicnative'
+include ':taplytics-react-native'
+project(':taplytics-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/taplytics-react-native/android')
 
 include ':app'

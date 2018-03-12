@@ -1,0 +1,27 @@
+PODS:
+  - React (0.54.0):
+    - React/Core (= 0.54.0)
+  - React/Core (0.54.0):
+    - yoga (= 0.54.0.React)
+  - Taplytics (2.24.1)
+  - yoga (0.54.0.React)
+
+DEPENDENCIES:
+  - React (from `../node_modules/react-native`)
+  - Taplytics
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga/yoga.podspec`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
+  yoga:
+    :path: ../node_modules/react-native/ReactCommon/yoga/yoga.podspec
+
+SPEC CHECKSUMS:
+  React: a662c315de87b99370cb76450dcc0d54e606b295
+  Taplytics: f0656beae47cf4194de18c35852b31cde122d8c4
+  yoga: a46e9437bebc95a5b774a12780cb34eae7d26d83
+
+PODFILE CHECKSUM: 30df148124289630796a038d9897772eeed8b5c2
+
+COCOAPODS: 1.3.1
